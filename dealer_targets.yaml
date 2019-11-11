@@ -1,1 +1,39 @@
-more tests 123
+oodledata:
+    dealer_targets:
+        Title: dealer_targets 
+        URL: https://github.com/oodlefinance/
+        CreatedBy: Gregory Purnell
+        SourceTables: 
+        - salesforce_ext.Budget_Period__c
+        - salesforce_ext.budget__c
+        Dependencies: 
+        UpdateFrequency: Daily
+        Columns:
+            report_date:
+                Label: 
+                GroupLabel: 
+                Description: 
+                Type: date 
+                SourceFields: salesforce_ext.Budget_Period__c.start_date__c
+                Derivation: Exact copy. 
+            dealer_id:
+                Label: 
+                GroupLabel: 
+                Description: 
+                Type: varchar 
+                SourceFields: salesforce_ext.budget__c.account__c
+                Derivation: Exact copy. 
+            monthly_target:
+                Label: 
+                GroupLabel: 
+                Description: 
+                Type: float8 
+                SourceFields: salesforce_ext.Budget_Period__c.Budget_Period_Amount__c
+                Derivation: Exact copy. 
+            daily_target:
+                Label: 
+                GroupLabel: 
+                Description: 
+                Type: float8 
+                SourceFields: salesforce_ext.Budget_Period__cBudget_Period_Amount__c/datediff
+                Derivation: Exact copy. 

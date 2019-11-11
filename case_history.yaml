@@ -1,1 +1,191 @@
-HTML initialisation commit, create empty file with filename placeholder
+oodledata:
+    case_history:
+        Title: case_history 
+        URL: https://github.com/oodlefinance/
+        CreatedBy: Gregory Purnell
+        SourceTables: 
+        Dependencies: cases
+        UpdateFrequency: Daily
+        Columns:
+            id:
+                Label: 
+                GroupLabel: 
+                Description: 
+                Type: varchar 
+                SourceFields: 
+                Derivation: Exact copy. 
+            date:
+                Label:
+                GroupLabel:
+                Description:
+                Type: timestamp
+                SourceFields: 
+                Derivation: Exact copy.
+            agreement_code:
+                Label:
+                GroupLabel:
+                Description:
+                Type: varchar
+                SourceFields: 
+                Derivation: Exact copy.
+            oodle_loan_id:
+                Label:
+                GroupLabel:
+                Description:
+                Type: varchar
+                SourceFields: 
+                Derivation: Exact copy.
+            customer_contact_id:
+                Label:
+                GroupLabel:
+                Description:
+                Type: varchar
+                SourceFields: 
+                Derivation: Exact copy.
+            customer_account_id:
+                Label:
+                GroupLabel:
+                Description:
+                Type: varchar
+                SourceFields: 
+                Derivation: Exact copy.
+            type:
+                Label:
+                GroupLabel:
+                Description:
+                Type: varchar
+                SourceFields: 
+                Derivation: Exact copy.
+            created_date:
+                Label:
+                GroupLabel:
+                Description:
+                Type: timestamp
+                SourceFields: 
+                Derivation: Exact copy.
+            status:
+                Label:
+                GroupLabel:
+                Description:
+                Type: varchar
+                SourceFields: 
+                Derivation: Exact copy.
+            reason:
+                Label:
+                GroupLabel:
+                Description:
+                Type: varchar
+                SourceFields: 
+                Derivation: Exact copy.
+            stage:
+                Label:
+                GroupLabel:
+                Description:
+                Type: varchar
+                SourceFields: 
+                Derivation: Exact copy.
+            origin:
+                Label:
+                GroupLabel:
+                Description:
+                Type: varchar
+                SourceFields: 
+                Derivation: Exact copy.
+            subject:
+                Label:
+                GroupLabel:
+                Description:
+                Type: varchar
+                SourceFields: 
+                Derivation: Exact copy.
+            description:
+                Label:
+                GroupLabel:
+                Description:
+                Type: varchar
+                SourceFields: 
+                Derivation: Exact copy.
+            customer_reason:
+                Label:
+                GroupLabel:
+                Description:
+                Type: varchar
+                SourceFields: 
+                Derivation: Exact copy.
+            debt_recovery_reason:
+                Label:
+                GroupLabel:
+                Description:
+                Type: varchar
+                SourceFields: 
+                Derivation: Exact copy.
+            customer_support_case_type:
+                Label:
+                GroupLabel:
+                Description:
+                Type: varchar
+                SourceFields: 
+                Derivation: Exact copy.
+            sq_reason:
+                Label:
+                GroupLabel:
+                Description:
+                Type: varchar
+                SourceFields: 
+                Derivation: Exact copy.
+            sq_unwind_status:
+                Label:
+                GroupLabel:
+                Description:
+                Type: varchar
+                SourceFields: 
+                Derivation: Exact copy.
+            owner_id:
+                Label:
+                GroupLabel:
+                Description:
+                Type: varchar
+                SourceFields: 
+                Derivation: Exact copy.
+            owner_name:
+                Label:
+                GroupLabel:
+                Description:
+                Type: varchar
+                SourceFields: 
+                Derivation: Exact copy.
+            owner_role:
+                Label:
+                GroupLabel:
+                Description:
+                Type: varchar
+                SourceFields: 
+                Derivation: Exact copy.
+            is_collections:
+                Label:
+                GroupLabel:
+                Description:
+                Type: bool
+                SourceFields: 
+                Derivation: Exact copy.
+            is_dd_mandate_case:
+                Label:
+                GroupLabel:
+                Description:
+                Type: bool
+                SourceFields: 
+                Derivation: Exact copy.
+            is_sq:
+                Label:
+                GroupLabel:
+                Description:
+                Type: bool
+                SourceFields: 
+                Derivation: Exact copy.
+            is_complaint:
+                Label:
+                GroupLabel:
+                Description:
+                Type: bool
+                SourceFields: 
+                Derivation: Exact copy.

@@ -1,1 +1,191 @@
-HTML initialisation commit, create empty file with filename placeholder
+oodledata:
+    arrangements:
+        Title: arrangements 
+        URL: https://github.com/oodlefinance/
+        CreatedBy: Gregory Purnell
+        SourceTables: 
+        Dependencies: 
+        UpdateFrequency: 
+        Columns:
+            agreement_code:
+                Label: 
+                GroupLabel: 
+                Description: 
+                Type: varchar 
+                SourceFields: 
+                Derivation: Exact copy. 
+            oodle_loan_id:
+                Label:
+                GroupLabel:
+                Description:
+                Type: varchar
+                SourceFields: 
+                Derivation: Exact copy.
+            id:
+                Label:
+                GroupLabel:
+                Description:
+                Type: varchar
+                SourceFields: 
+                Derivation: Exact copy.
+            arrangement_name:
+                Label:
+                GroupLabel:
+                Description:
+                Type: varchar
+                SourceFields: 
+                Derivation: Exact copy.
+            case_id:
+                Label:
+                GroupLabel:
+                Description:
+                Type: varchar
+                SourceFields: 
+                Derivation: Exact copy.
+            arrangement_source:
+                Label:
+                GroupLabel:
+                Description:
+                Type: varchar
+                SourceFields: 
+                Derivation: Exact copy.
+            amount:
+                Label:
+                GroupLabel:
+                Description:
+                Type: numeric
+                SourceFields: 
+                Derivation: Exact copy.
+            created_by_agent_id:
+                Label:
+                GroupLabel:
+                Description:
+                Type: varchar
+                SourceFields: 
+                Derivation: Exact copy.
+            created_by_agent:
+                Label:
+                GroupLabel:
+                Description:
+                Type: varchar
+                SourceFields: 
+                Derivation: Exact copy.
+            created_by_agent_role:
+                Label:
+                GroupLabel:
+                Description:
+                Type: varchar
+                SourceFields: 
+                Derivation: Exact copy.
+            created_by_shoosmiths:
+                Label:
+                GroupLabel:
+                Description:
+                Type: bool
+                SourceFields: 
+                Derivation: Exact copy.
+            break_forward_arrangements:
+                Label:
+                GroupLabel:
+                Description:
+                Type: bool
+                SourceFields: 
+                Derivation: Exact copy.
+            created_date:
+                Label:
+                GroupLabel:
+                Description:
+                Type: timestamp
+                SourceFields: 
+                Derivation: Exact copy.
+            due_date:
+                Label:
+                GroupLabel:
+                Description:
+                Type: timestamp
+                SourceFields: 
+                Derivation: Exact copy.
+            last_modified_date:
+                Label:
+                GroupLabel:
+                Description:
+                Type: timestamp
+                SourceFields: 
+                Derivation: Exact copy.
+            arrangement_length:
+                Label:
+                GroupLabel:
+                Description:
+                Type: int4
+                SourceFields: 
+                Derivation: Exact copy.
+            nth_part_of_multipart:
+                Label:
+                GroupLabel:
+                Description:
+                Type: int4
+                SourceFields: 
+                Derivation: Exact copy.
+            n_part_multipart:
+                Label:
+                GroupLabel:
+                Description:
+                Type: int4
+                SourceFields: 
+                Derivation: Exact copy.
+            longest_part_multipart:
+                Label:
+                GroupLabel:
+                Description:
+                Type: int4
+                SourceFields: 
+                Derivation: Exact copy.
+            status:
+                Label:
+                GroupLabel:
+                Description:
+                Type: varchar
+                SourceFields: 
+                Derivation: Exact copy.
+            waiting_for_outcome:
+                Label:
+                GroupLabel:
+                Description:
+                Type: bool
+                SourceFields: 
+                Derivation: Exact copy.
+            paid_in_full:
+                Label:
+                GroupLabel:
+                Description:
+                Type: bool
+                SourceFields: 
+                Derivation: Exact copy.
+            paid_in_part:
+                Label:
+                GroupLabel:
+                Description:
+                Type: bool
+                SourceFields: 
+                Derivation: Exact copy.
+            cancelled:
+                Label:
+                GroupLabel:
+                Description:
+                Type: bool
+                SourceFields: 
+                Derivation: Exact copy.
+            broken_not_paid:
+                Label:
+                GroupLabel:
+                Description:
+                Type: bool
+                SourceFields: 
+                Derivation: Exact copy.
+            arrangement_score:
+                Label:
+                GroupLabel:
+                Description:
+                Type: numeric
+                SourceFields: 
+                Derivation: Exact copy.
